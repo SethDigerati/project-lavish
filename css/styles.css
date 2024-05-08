@@ -1,0 +1,112 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0b93ab;
+}
+
+header {
+    background-color: #4e4d4d;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 50px;  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+nav {
+    position: fixed;
+    top: 50px; /* Start below the header */
+    left: 0;
+    background-color: #5a5a5a;
+    width: 200px;
+    height: calc(100% - 50px); /* Subtract the height of the header */
+    padding: 10px;
+    overflow-y: auto;
+    z-index: 500;
+    font-size: larger;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+aside {
+    position: fixed;
+    top: 50px;
+    left: 200px;
+    background-color: #ccc;
+    width: 200px;
+    height: calc(100% - 55px);
+    padding: 10px;
+    overflow-y: auto;
+    z-index: 500;
+}
+.fa {
+    font-size:30px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10px;
+}
+
+nav ul.subcategories {
+    padding-left: 20px; /* Indent the subcategories */
+}
+
+nav ul.subcategories li {
+    margin-bottom: 5px; /* Add some vertical space between subcategories */
+}
+
+nav ul.subcategories li a {
+    text-decoration: none;
+    color: #242424; /* Style the links */
+}
+
+nav ul.subcategories li a:hover {
+    color: #0a98b5; /* Style the links on hover */
+}
+
+main {
+    margin-top: 50px; /* Ensure the main content is below the header */
+    margin-left: 400px; /* Adjust for the combined width of nav and aside */
+    padding: 20px;
+    flex: 1;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul, aside ul {
+    list-style-type: none;
+    padding: 0
+}
+
+nav ul li, aside ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a, aside ul li a {
+    text-decoration: none;
+    shape-rendering: auto;
+    color: black;
+}
+
+nav ul h6, aside ul h6 {
+    margin-bottom: 10px;
+    font-weight: bold;
+
+}
