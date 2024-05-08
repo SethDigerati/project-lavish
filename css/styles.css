@@ -53,6 +53,7 @@ aside {
 nav ul {
     list-style-type: none;
     padding: 20px;
+    
 }
 
 nav ul.subcategories {
@@ -68,15 +69,18 @@ nav ul.subcategories li a {
     color: #242424; /* Style the links */
 }
 
-nav ul.subcategories li a:hover {
-    color: #0a98b5; /* Style the links on hover */
-}
-
 main {
     margin-top: 50px; /* Ensure the main content is below the header */
     margin-left: 400px; /* Adjust for the combined width of nav and aside */
     padding: 20px;
     flex: 1;
+}
+
+
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
 }
 
 footer {
@@ -100,8 +104,6 @@ nav ul li, aside ul li {
 }
 
 nav ul li a, aside ul li a {
-    text-decoration: none;
-    shape-rendering: auto;
     color: black;
 }
 
