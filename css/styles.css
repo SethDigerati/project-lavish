@@ -28,7 +28,7 @@ nav {
     background-color: #5a5a5a;
     width: 200px;
     height: calc(100% - 50px); /* Subtract the height of the header */
-    padding: 10px;
+    padding: 20px;
     overflow-y: auto;
     z-index: 500;
     font-size: larger;
@@ -52,7 +52,7 @@ aside {
 
 nav ul {
     list-style-type: none;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav ul.subcategories {
