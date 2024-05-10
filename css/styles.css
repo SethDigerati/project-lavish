@@ -23,15 +23,15 @@ header {
 
 nav {
     position: fixed;
-    top: 50px; /* Start below the header */
+    top: 50px;
     left: 0;
     background-color: #5a5a5a;
     width: 200px;
-    height: calc(100% - 50px); /* Subtract the height of the header */
-    padding: 20px;
+    height: calc(100% - 50px);
+    padding: 1px;
     overflow-y: auto;
     z-index: 500;
-    font-size: larger;
+    font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -40,47 +40,45 @@ aside {
     top: 50px;
     left: 200px;
     background-color: #ccc;
-    width: 200px;
+    width: 20%;
     height: calc(100% - 55px);
     padding: 10px;
     overflow-y: auto;
     z-index: 500;
 }
+
 .fa {
-    font-size:30px;
+    font-size: 30px;
 }
 
-nav ul {
+nav ul,
+aside ul {
     list-style-type: none;
-    padding: 20px;
-    
+    padding: 0;
 }
 
 nav ul.subcategories {
-    padding-left: 20px; /* Indent the subcategories */
+    padding-left: 20px;
 }
 
 nav ul.subcategories li {
-    margin-bottom: 5px; /* Add some vertical space between subcategories */
+    margin-bottom: 5px;
 }
 
 nav ul.subcategories li a {
     text-decoration: none;
-    color: #242424; /* Style the links */
+    color: #242424;
+}
+
+.checked {
+    color: cyan;
 }
 
 main {
-    margin-top: 50px; /* Ensure the main content is below the header */
-    margin-left: 400px; /* Adjust for the combined width of nav and aside */
+    margin-top: 50px;
+    margin-left: 400px;
     padding: 20px;
     flex: 1;
-}
-
-
-.container{
-    display: flex;
-    flex-direction: row;
-    height: 100%;
 }
 
 footer {
