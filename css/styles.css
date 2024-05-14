@@ -1,12 +1,5 @@
 /* css/styles.css */
 
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #0b93ab;
-}
-
 header {
     background-color: #4e4d4d;
     color: white;
@@ -20,17 +13,23 @@ header {
     height: 50px;  
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #0b93ab;
 }
 
 
 main {
-    margin: 20px 50px;
     padding: 20px;
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position: relative;
+    position: start;
+    margin-top: 50px;
+    margin-left: 200px;
 }
 
 nav {
@@ -46,17 +45,15 @@ nav {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-aside {
-    top: 50px;
-    left: 200px;
-    background-color: #ccc;
-    width: 20%;
-    height: calc(100% - 55px);
-    padding: 10px;
-    overflow-y: auto;
-    z-index: 500;
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
+nav li {
+    padding: auto;
+}
 .fa {
     font-size: 30px;
 }
@@ -65,12 +62,6 @@ aside {
     color: cyan;
 }
 
-main {
-    margin-top: 50px;
-    margin-left: 400px;
-    padding: 20px;
-    flex: 1;
-}
 
 footer {
     background-color: #333;
