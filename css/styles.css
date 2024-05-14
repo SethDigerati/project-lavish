@@ -6,8 +6,6 @@ header {
     padding: 10px 20px;
     text-align: center;
     position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     z-index: 550;
     height: 50px;  
@@ -16,20 +14,15 @@ header {
     justify-content: space-between;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #0b93ab;
-}
-
-
 main {
     padding: 20px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    position: start;
     margin-top: 50px;
     margin-left: 200px;
+    margin-right: 200px;
+    margin-bottom: 50px
 }
 
 nav {
@@ -38,6 +31,18 @@ nav {
     left: 0;
     background-color: #5a5a5a;
     width: 200px;
+    height: calc(100% - 50px);
+    padding: 1px;
+    overflow-y: auto;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.carousel {
+    position: fixed;
+    top: 50px;
+    left: 200px;
+    width: calc(100% - 200px);
     height: calc(100% - 50px);
     padding: 1px;
     overflow-y: auto;
@@ -54,6 +59,8 @@ nav ul {
 nav li {
     padding: auto;
 }
+
+.
 .fa {
     font-size: 30px;
 }
