@@ -42,7 +42,6 @@ nav {
     height: calc(100% - 50px);
     padding: 1px;
     overflow-y: auto;
-    z-index: 500;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -60,26 +59,6 @@ aside {
 
 .fa {
     font-size: 30px;
-}
-
-nav ul,
-aside ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-nav ul.subcategories {
-    padding-left: 20px;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.3s;
-}
-
-nav ul.subcategories li {
-    margin-bottom: 5px;
-}
-
-nav ul.subcategories li a {
-    text-decoration: none;
-    color: #242424;
 }
 
 .checked {
@@ -102,23 +81,4 @@ footer {
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-nav ul, aside ul {
-    list-style-type: none;
-    padding: 1;
-}
-
-nav ul li, aside ul li {
-    margin-bottom: 10px;
-}
-
-nav ul li a, aside ul li a {
-    color: black;
-}
-
-nav ul h6, aside ul h6 {
-    margin-bottom: 10px;
-    font-weight: bold;
-
 }

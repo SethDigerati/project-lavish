@@ -28,7 +28,7 @@
         <i class="fa fa-cart-shopping"></i>
     </header>
 <!--loading screen-->
-        <section id="loadingScreen">
+    <section id="loadingScreen">
                 <div class="context">
                  <h1 class="reveal-text">Welcome to Lavish Shopping Online</h1>
                  <h2>We are glad to have you here</h2>
@@ -52,7 +52,73 @@
                             <li></li>
                     </ul>
             </div >
-        </section>
+    </section>
+
+    <!-- navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand uppercase" href="#">Lavish</a>
+      
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+          <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+              <a class="nav-link" href="./">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">about</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">contact</a>
+            </li>
+          </ul>
+          <div>
+            <i class="shop-icon fas fa-shopping-cart fa-xl mr-3"></i>
+          </div>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+          
+      <div class="grid-container">
+        <nav class="sidebar">
+           <ul>
+                <div class="search">
+                    <i class="fas fa-search">Search</i>
+                    <input type="text" placeholder="Search here...">
+                </div>
+                <li><a href="#" class="icon-list"><i class="fas fa-home"></i>  Home</a></li>
+                <li>
+                    <a href="#"  class="icon-list"><i class="fas fa-list"></i>  Categories</a>
+                    <ul class="subcategories">
+                        <li><input type="checkbox" id="shoes"><label for="shoes">Shoes</label></li>
+                        <li><input type="checkbox" id="homeKitchen"><label for="homeKitchen">Home & Kitchen</label></li>
+                        <li><input type="checkbox" id="appliances"><label for="appliances">Appliances</label></li>
+                        <li><input type="checkbox" id="computerAccessories"><label for="computerAccessories">Computer & Accessories</label></li>
+                        <li><input type="checkbox" id="audioVideo"><label for="audioVideo">Audio & Video</label></li>
+                        <li><input type="checkbox" id="phones"><label for="phones">Phones</label></li>
+                        <li><input type="checkbox" id="watchesJewelry"><label for="watchesJewelry">Watches & Jewelry</label></li>
+                        <li><input type="checkbox" id="healthBeauty"><label for="healthBeauty">Health & Beauty</label></li>
+                        <li><input type="checkbox" id="kids"><label for="kids">Kids</label></li>
+                        <li><input type="checkbox" id="toys"><label for="toys">Toys</label></li>
+                        <li><input type="checkbox" id="fashionAccessories"><label for="fashionAccessories">Fashion Accessories</label></li>
+                        <li><input type="checkbox" id="sportsEquipment"><label for="sportsEquipment">Sports Equipment</label></li>
+                        <li><input type="checkbox" id="homeDecor"><label for="homeDecor">Home Decor</label></li>
+                        <li><input type="checkbox" id="kitchenEssentials"><label for="kitchenEssentials">Kitchen Essentials</label></li>
+                        <li><input type="checkbox" id="healthBeauty2"><label for="healthBeauty2">Health & Beauty</label></li>
+                        <li><input type="checkbox" id="homeAppliances"><label for="homeAppliances">Home Appliances</label></li>
+                    </ul>
+                </li>
+            </ul>
+            <ul>
+                <li><a href="#" class="icon-list"><i class="fas fa-envelope"></i>  Contact us</a></li>
+                <li><a href="#" class="icon-list"><i class="fas fa-info-circle"></i>  About us</a></li>
+            </ul>
+        </nav>
+        
     <main>
         <!-- Carousel -->
         <div class="container">
@@ -91,41 +157,6 @@
                     <span class="sr-only">Next</span>
                 </a>
             </div>
-            <div id="product-container" class="container">
-
-            <!-- Navigation bar -->
-            <nav>
-                <ul>
-                    <div class="search">
-                        <i class="fas fa-search">Search</i>
-                        <input type="text" placeholder="Search here...">
-                    </div>
-                    <li><a href="#"><a href="#"><i class="fas fa-home"></i>  Home</a></li>
-                    <li>
-                        <a href="#"><i class="fas fa-list"></i>  Categories</a>
-                        <ul class="subcategories">
-                            <li><input type="checkbox" id="shoes"><label for="shoes">Shoes</label></li>
-                            <li><input type="checkbox" id="homeKitchen"><label for="homeKitchen">Home & Kitchen</label></li>
-                            <li><input type="checkbox" id="appliances"><label for="appliances">Appliances</label></li>
-                            <li><input type="checkbox" id="computerAccessories"><label for="computerAccessories">Computer & Accessories</label></li>
-                            <li><input type="checkbox" id="audioVideo"><label for="audioVideo">Audio & Video</label></li>
-                            <li><input type="checkbox" id="phones"><label for="phones">Phones</label></li>
-                            <li><input type="checkbox" id="watchesJewelry"><label for="watchesJewelry">Watches & Jewelry</label></li>
-                            <li><input type="checkbox" id="healthBeauty"><label for="healthBeauty">Health & Beauty</label></li>
-                            <li><input type="checkbox" id="kids"><label for="kids">Kids</label></li>
-                            <li><input type="checkbox" id="toys"><label for="toys">Toys</label></li>
-                            <li><input type="checkbox" id="fashionAccessories"><label for="fashionAccessories">Fashion Accessories</label></li>
-                            <li><input type="checkbox" id="sportsEquipment"><label for="sportsEquipment">Sports Equipment</label></li>
-                            <li><input type="checkbox" id="homeDecor"><label for="homeDecor">Home Decor</label></li>
-                            <li><input type="checkbox" id="kitchenEssentials"><label for="kitchenEssentials">Kitchen Essentials</label></li>
-                            <li><input type="checkbox" id="healthBeauty2"><label for="healthBeauty2">Health & Beauty</label></li>
-                            <li><input type="checkbox" id="homeAppliances"><label for="homeAppliances">Home Appliances</label></li>
-                        </ul>
-                    </li>
-                    <li><a href="#"><i class="fas fa-envelope"></i>  Contact us</a></li>
-                    <li><a href="#"><i class="fas fa-info-circle"></i>  About us</a></li>
-                </ul>
-            </nav>
         </div>
     </main>
 
