@@ -42,12 +42,13 @@ nav {
     position: fixed;
     top: 50px;
     left: 200px;
-    width: calc(100% - 200px);
-    height: calc(100% - 50px);
     padding: 1px;
     overflow-y: auto;
     font-size: 14px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 50%;
+    flex: auto;
+    space
 }
 
 nav ul {
@@ -60,7 +61,6 @@ nav li {
     padding: auto;
 }
 
-.
 .fa {
     font-size: 30px;
 }
