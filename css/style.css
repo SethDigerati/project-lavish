@@ -1,0 +1,115 @@
+/* Reset and basic styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+nav .shop-icon {
+  color: grey;
+}
+
+nav .shop-icon:hover {
+  color: #2473e3;
+}
+
+.grid-container {
+  width: 100%;
+  display: grid;
+  grid-template-columns: minmax(300px, 350px) 1fr; /* Sidebar has a min-width of 200px and max-width of 300px, main content takes remaining width */
+  flex-grow: 1;
+  align-items: start;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  background-color: #f1f1f1;
+  padding: 20px;
+  max-width: 300px;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sidebar h2 {
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+}
+
+.sidebar a {
+  color: #333;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: #666;
+}
+
+.main-content {
+  background-color: #fff;
+  padding: 20px;
+}
+
+.carousel-item img {
+  width: 720px;
+  height: 660px;
+  margin: auto;
+}
+
+.carousel i {
+  color: #2473e3;
+}
+
+section {
+  margin-bottom: 90px;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.subcategories li,
+.icon-list {
+  display: flex;
+  padding: 4px;
+  gap: 10px;
+  align-items: center;
+  width: 100%;
+}
+
+.subcategories li:hover {
+  color: #2473e3;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Stack sidebar and main content on smaller screens */
+  }
+
+  .sidebar {
+    margin-bottom: 20px;
+  }
+}
