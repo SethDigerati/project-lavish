@@ -2,9 +2,9 @@ import axios from "axios";
 import * as cheerio from "cheerio";
 import fs from "fs";
 
-let URL = "https://copia.co.ke/product-category/all/saleable/page/3/";
-let NAME_OF_FILE ="home.json";
-let NO_PAGES = 1;
+let URL = "https://copia.co.ke/product-category/all/saleable/baby/";
+let NAME_OF_FILE ="baby.json";
+let NO_PAGES = 4;
 
 async function scrape(url) {
   const response = await axios.get(url,  { timeout: 5000 });
@@ -52,7 +52,7 @@ async function start() {
     products = products.concat(result);
   }
 
-  fs.writeFileSync(NAME_OF_FILE, JSON.stringify(products));
+  fs.writeFileSync(`./productsrc/${NAME_OF_FILE}`, JSON.stringify(products));
 }
 
 start();

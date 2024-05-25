@@ -3,10 +3,14 @@
     font-size: 2em;
     margin-top: 20px;
     padding: auto;
-    background-image: "assets/_1300db33-1a34-4c5e-84e9-93b772994cd2.jpeg";
+    background-image: "./assets/_1300db33-1a34-4c5e-84e9-93b772994cd2.jpeg";
     font-family: 'Source Sans Pro', sans-serif;
     height: 100;
 
+}
+
+nav {
+    background-color: #333;
 }
 
 nav div ul li:hover {

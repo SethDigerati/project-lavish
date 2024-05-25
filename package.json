@@ -7,8 +7,8 @@
     "lib": "lib"
   },
   "scripts": {
-    "scrape": "node scrapper.js",
-    "merge": "node merge.js"
+    "scrape": "node ./productsrc/scrapper.js",
+    "merge": "node ./productsrc/merge.js"
   },
   "author": "",
   "license": "ISC",
