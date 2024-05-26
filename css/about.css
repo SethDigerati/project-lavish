@@ -1,48 +1,62 @@
-.about{
-    text-align: center;
-    font-size: 2em;
-    margin-top: 20px;
-    padding: auto;
-    background-image: "./assets/_1300db33-1a34-4c5e-84e9-93b772994cd2.jpeg";
-    font-family: 'Source Sans Pro', sans-serif;
-    height: 100;
 
-}
 
 nav {
     background-color: #333;
 }
+*{
+    font-family: "Open Sans",sans-serif;
+    box-sizing: border-box;
+}
 
-nav div ul li:hover {
-    color: #2473e3;
-    text-decoration: blue;
-    transition: all 1s ease-in-out;
+.about-section{
+    background-image: url("../assets/logo/_bd0051fa-be6d-4df1-87fc-2d8ae9c03658.jpeg");
+    background-repeat:  no-repeat;
+    background-size: 45%;
+    background-color: #fdfdfd;
+    overflow: hidden;
+    padding: 100px 0;
+    background-size: 45%;
+   
+}
+
+.inner-container{
+    width: 55%;
+    float: right;
+    background-color: #fdfdfd;
+    padding: 150px;
+}
+
+.inner-container h1{
+    margin-bottom: 30px;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.text{
+    font-size: 13px;
+    color: #545454;
+    line-height: 30px;
+    text-align: justify;
+    margin-bottom: 40px;    
+}
+
+.skills{
+    display: block;
+    justify-content: space-between;
+    font-weight: 700;
+    font-size: 13px;
 }
 
 
-.aboutus h1 {
-font: hevlatica;
-text-align: center;
-margin-top: 20px;
-font-size: 3em;
-
-}
-.aboutus {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: auto;
-    background-color: #f5f5f5;
-    font-family: 'Source Sans Pro', sans-serif;
-} 
-
-
-footer {
+.footer {
+    display: grid;
     background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
     align-content: bottom;
-    margin-top: auto;
+    width: 100vw;
+    margin-top: 1000px;
   }
 
 

@@ -11,6 +11,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  background-color: aquamarine;
 }
 
 header {
@@ -39,7 +40,7 @@ nav .shop-icon:hover {
 .sidebar {
   position: sticky;
   top: 0;
-  background-color: #f1f1f1;
+  background-color: #96b7bf;
   padding: 20px;
   max-width: 300px;
   min-height: 100dvh;
@@ -56,17 +57,12 @@ nav .shop-icon:hover {
   list-style-type: none;
 }
 
-.sidebar a {
-  color: #333;
-  text-decoration: none;
-}
-
 .sidebar a:hover {
-  color: #666;
+  color: aquamarine;
 }
 
 .main-content {
-  background-color: #fff;
+  background-color: #6aeaf6;
   padding: 20px;
 }
 
@@ -88,6 +84,7 @@ section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+  border-radius: 20cm;
 }
 
 .subcategories li,
@@ -97,10 +94,11 @@ section {
   gap: 10px;
   align-items: center;
   width: 100%;
+  background-color: #96b7bf;
 }
 
 .subcategories li:hover {
-  color: #2473e3;
+  color:aquamarine;
 }
 
 /* Responsive styles */
